@@ -1,6 +1,8 @@
 schemaVersion: 2.2.2
 metadata:
-  name: nodejs-web-app
+  name: nodejs-web-app-per-workspace
+attributes:
+  controller.devfile.io/storage-type: per-workspace
 components:
   - name: tools
     container:
